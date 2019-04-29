@@ -11,6 +11,10 @@ Vue.component('progress-view', {
     }
 })
 
+Vue.component('message', {
+    template:`<h1>message</h1>`
+})
+
 new Vue({
     el: '#root',
     mounted() {
